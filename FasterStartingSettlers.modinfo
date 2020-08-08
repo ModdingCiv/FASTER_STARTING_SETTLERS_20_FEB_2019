@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b5776b4b-93b1-409c-acee-09f829856eed">
+	<Properties>
+		<Name>Faster Starting Settlers</Name>
+		<Description>All starting Settlers have +1 [ICON_MOVEMENT] movement and ignore terrain costs. This effect only applies to your starting Settlers and not to any additional Settlers you train.</Description>
+		<Teaser>Starting Settlers move faster and ignore terrain.</Teaser>
+		<Authors>Sejick</Authors>
+		<AffectsSavedGames>0</AffectsSavedGames>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<InGameActions>
+		<UpdateDatabase id="FSS_Data">
+			<File>FasterStartingSettlers.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>FasterStartingSettlers.sql</File>
+	</Files>
+</Mod>
