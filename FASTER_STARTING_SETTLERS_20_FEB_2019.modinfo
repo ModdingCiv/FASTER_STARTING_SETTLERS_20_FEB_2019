@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="b5776b4b-93b1-409c-acee-09f829856eed">
+	<Properties>
+		<Name>FASTER_STARTING_SETTLERS_20_FEB_2019</Name>
+		<Description>Starting Settlers ignore terrain costs. This effect only applies to your starting Settlers and not to any additional Settlers you train.</Description>
+		<Teaser>Starting Settlers ignore terrain.</Teaser>
+		<Authors>Sejick, Kevin van Rijn</Authors>
+		<CompatibleVersions>2.0</CompatibleVersions>
+	</Properties>
+	<InGameActions>
+		<UpdateDatabase id="FSS_Data">
+			<File>FasterStartingSettlers.sql</File>
+		</UpdateDatabase>
+	</InGameActions>
+	<Files>
+		<File>FasterStartingSettlers.sql</File>
+	</Files>
+</Mod>
